@@ -1,7 +1,7 @@
 # Container image that runs your code
 FROM python:3.8-slim
 
-# Instalando as dependencias
+# Installing python dependencies with pip
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
